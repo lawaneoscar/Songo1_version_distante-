@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songho - Version distante (Ajax)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Songho à distance</h1>
+        <div class="scores">
+            <div class="score north-score">Nord : 0</div>
+            <div class="score south-score">Sud : 0</div>
+        </div>
+        <div class="board" id="board">
+            <div class="row north-row" id="north-row"></div>
+            <div class="row south-row" id="south-row"></div>
+        </div>
+        <div class="status" id="status">Connexion en cours...</div>
+        <button id="resetBtn">Nouvelle partie (Sud seulement)</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
